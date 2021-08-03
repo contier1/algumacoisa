@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuche MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+#inicio{
+	background:#f7b600;
+	text-align: center;
+	padding: 30px;
+	height: 100px;
+
+}
+
+.a{
+	color: white;
+	line-height: 70px;
+}
+
+#menuesq{
+	float: left;
+	margin-right: 20px;
+}
+
+#menudir{
+	float: left;
+
+}
+
+#roda{
+	background: #dddadd;
+	text-align: center;
+	clear: both;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+#meio{
+	width: 1200px;
+	margin: 10px auto; 
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px;
+}
+
+
+
+.branco{
+	color: white;
+}
+
+
+h1{
+	color:#4e4e4e;
+	font-size: 2.5em;
+
+}
+
+h2{
+	color: #ffc300;
+	padding-left: 20px;
+	margin:0px;
+
+}
+
+h3{
+	color: grey;
+	background: #dddadd;
+	padding: 5px;
+	margin: 0px;
+}
+
+
+
+.sub{
+	width: 680px;
+	background: white;
+	padding: 7px;
+	margin-bottom: 10px;
+	
+}
+
+.sub2{
+	width: 220px;
+	background: white;
+	padding: 7px;
+	margin-bottom: 10px;
+}
+
+img{
+	padding: 0px 20px; 
+}
+
+p{
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.link{
+	color: #ffc300;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.la{
+	color: #ffc300;
+	margin:0px;
+	padding:0px;
+	font-size: 19px;  
+}
+
+.txt{
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.mr{
+	padding-left: 20px;
+}
+
+a:hover{
+	color: #f7b600;
+	background: #FFF;
+}
