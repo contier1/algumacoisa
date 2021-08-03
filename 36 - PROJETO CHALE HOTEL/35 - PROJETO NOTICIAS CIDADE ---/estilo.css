@@ -1,0 +1,234 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	
+
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: url(img/fundo.png)repeat-x;
+}
+
+#container{
+	width: 750px;
+	margin: 0 auto;
+}
+/*--------- Formatar Topo --------- */
+#topo{
+	height: 150px;
+	background: url(img/detalhe-topo.png)no-repeat right top;
+	padding-top: 20px;
+}
+
+.logo{
+	width: 152px;
+	height: 66px;
+	background: url(img/logo.png)no-repeat center;
+}
+
+ul{
+	list-style: none; 
+}
+
+#topo ul{
+	margin-top: 30px;
+	background: #b10333;
+	float: left;
+}
+#topo ul li{
+	float: left;
+}
+#topo ul a{
+	font-size: 0.9em;
+	 display: block;
+	 padding: 0.5em 1.5em;
+	 color: white;
+	 line-height: 2.1em;
+	 text-decoration: none;
+	 background: url(img/divisor.png)no-repeat center left;
+}
+
+#topo ul .primeiro a {
+	background: none; 
+}
+
+#topo ul a:hover{
+	background: #69001d;
+	color: black;
+}
+/*--------- Fim Formatar Topo --------- */
+
+#conteudo{
+	margin-top: 60px;
+	background: #f5f5f5;
+}
+
+/* --------- Menu --------- */
+#menu{
+	width: 180px;
+	float: left;
+}
+
+#menu ul a{
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#menu ul a:hover{
+	color: grey;
+	text-indent: 20px;
+	background: url(img/marcador.png)no-repeat center left;
+}
+
+
+.caixa{
+	margin: 10px 0; 
+	padding: 5px;
+	background:  url(img/fundo-caixa.png);
+}
+/* --------- Fim Menu --------- */
+
+h2{
+	font-size: 1em;
+	background: #294c71;
+	color: white;
+	padding: 5px;
+}
+
+.caixaconteudo{
+	background: white;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+/* --------- Conteudo 1 --------- */
+#tres #conteudo1{
+	width: 270px;
+	float: left;
+	margin: 0 15px;
+}
+
+#duas #conteudo1{
+	width: 555px;
+	float: left;
+} 
+
+#uma #conteudo1{
+	width: 750px;
+	float: left;
+} 
+#conteudo1 h3{
+	background: #b10333;
+	font-size:0.9em;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	padding: 0 3px;
+	margin-bottom: 5px;
+} 
+
+#conteudo1 img{
+	width: 100%;
+}
+
+/* --------- Fim Conteudo 1 --------- */
+
+.select{
+	background: #69001d;
+	color: white;
+}
+
+/* --------- Conteudo 2 --------- */
+#conteudo2{
+	width: 270px;
+	float: left;
+}
+
+#conteudo2 h3{
+	color: white;
+	background: #b10333;
+	font-size:0.9em;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 0 3px;
+	margin-bottom: 5px;
+}
+/* --------- Fim Conteudo 2 --------- */
+
+a{
+	color: #b10333;
+}
+
+img{
+	width: 250px;
+}
+
+p{
+	font-size: 0.8em;
+}
+/* --------- input --------- */
+label{
+	cursor: pointer;
+}
+input{
+	padding: 5px;
+	width: 125px;
+}
+
+input.submit{
+	width: 80px;
+	color: white;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
+/* --------- Fim input --------- */
+
+/* -------- Inicio Lista de noticias -------- */
+#listnt li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 65px;
+}
+
+#listnt li a img{
+	width: 80px;
+	float: left;
+	margin-right:3px;
+}
+
+#listnt li a {
+	text-decoration: none;
+}
+
+#listnt li a h4{
+	color: cyan;
+	font-size: 0.8em;
+}
+
+#listnt li a p{
+	font-size: 0.6em;
+}
+
+
+/* -------- Fim Inicio Lista de noticias -------- */
+
+/* -------- Inicio Rodape -------- */
+#containerrodape{
+	clear: both;
+	background: #294c71;
+	height: 50px;
+	line-height: 50px;
+}
+
+#rodape{
+	width: 750px;
+	margin: 0 auto;
+	color: white;
+}
+/* -------- Fim Inicio Rodape -------- */

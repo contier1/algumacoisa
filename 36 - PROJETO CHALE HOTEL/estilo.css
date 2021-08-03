@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding:0; 
+}
+
+body{
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	background:white url(img/bg.png);
+	margin: 15px;
+}
+
+#container{
+	background: ;
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1180px;
+}
+
+/* ------ Inicio topo ------ */
+#topo{
+	background: #dbcd87;
+	height: 15.4em;
+	min-height: 250px;
+	position: relative;
+}
+
+#logo{
+	position: absolute;
+	background: url(img/topo-imagem-principal.png)no-repeat;
+	width: 100%;
+	height: 250px;
+	top:0;
+	left: 0;
+}
+
+#topo img{
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+
+#menu{
+	position: absolute;
+	background: url(img/topo-imagem-lateral.png)no-repeat;
+	width: 450px;
+	height: 250px;
+	top: 0;
+	right: 0;
+}
+
+#minimenu{
+
+	margin: 15px 15px 15px 90px;
+
+}
+
+#minimenu img{
+	position: absolute;
+	
+}
+
+.cor a{
+	color: #8b8448;
+	font-size: 0.7em;
+}
+
+a.reserva {
+	position: absolute;
+	text-transform: uppercase;
+	background: #a29750;
+	color: #fff5b0;
+	padding: 4px;
+	right: 16px;
+}
+
+#minimenu ul li a{
+	color: #a29750;
+	font-weight: bold; 
+}
+
+#minimenu ul li a:hover{
+	color: #fff5b0;
+	background: #a29750;
+	font-weight: bold; 
+	padding: 5px;
+}
+
+#minimenu ul li{
+	padding: 9px;
+}
+
+#minimenu img{
+	position: absolute;
+	top: 70px;
+	left: 210px;
+}
+
+.bordinha{
+	padding: 5px;
+	border-top: 1px solid #b5ab56;
+	border-bottom: 1px solid #b5ab56;
+	margin-bottom: 9px; 
+}
+
+ul{
+	list-style: none; 
+}
+
+a{
+	text-decoration: none;
+}
+/* ------ Fim topo ------ */
+
+/* ------ Conteudo ------ */
+
+#conteudo{
+	background: url(img/bg-container.png)repeat-y center;
+	height: 445px;
+}
+	/* ----- Lado Esquerdo -----*/
+#esquerdo p{
+	padding:10px 0;
+}
+
+#esquerdo{
+	float: left;
+	width: 50%;
+	background: url(img/bg-area-principal.png)repeat-x;
+}
+
+#esquerdo h3{
+	color: #a29750;
+
+}
+
+
+.subesq{
+	padding:30px;
+
+}
+	/* ----- Fim Lado Esquerdo -----*/
+
+#direito{
+	float: left;
+	width: 50%;
+	background: url(img/bg-area-lateral.png)repeat-x;
+}
+
+#direito img{
+	width: 180px;
+	float: left;
+	margin-right: 10px;
+}
+
+#direito h3{
+	color: #a29750;
+	font-size: 1em;
+	background: url(img/ornamento.png)no-repeat top right;
+}
+
+#direito p{
+	font-size: 0.9em;
+}
+
+.subdir{
+	margin: 30px;
+}
+
+.bordinha22{
+	border-bottom: 1px solid #fff5b0;
+	height: 125px;
+	margin-bottom: 10px;
+}
+
+/* ------ Fim Conteudo ------ */
+
+/* ------ Rodape ------ */
+#rodape{
+	color: #a29750;
+	background: url(img/bg-rodape.png)repeat-x
+}
